@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro|Anton|Barlow:400,500|Poppins|Source+Sans+Pro");
+html, body {
+  background: #02182b;
+  height: 100%;
+}
+
+body.noScroll {
+  overflow: hidden;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  background-color: transparent;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean .navbar-brand {
+  color: #cfb31e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  letter-spacing: -1px;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean #navcol-1 .nav-link {
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean #navcol-1 .nav-link:hover, .navbar.navbar-light.navbar-expand-md.navigation-clean #navcol-1 .nav-link:active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.container.vertical-center {
+  margin-bottom: 0;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.jumbotron.transparent-wrapper {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron.transparent-wrapper img {
+  margin: 0 auto 10px auto;
+  padding: 15px;
+}
+
+.jumbotron.transparent-wrapper h1 {
+  color: #cfb31e;
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron.transparent-wrapper p {
+  color: #ea0a0a;
+  font-size: 1.5rem;
+  font-family: "Barlow", sans-serif;
+  padding-top: -10px;
+  margin-top: -10px;
+}
+
+.jumbotron.transparent-wrapper.info-styler {
+  background-color: transparent;
+  font-family: "Barlow", sans-serif;
+}
+
+.jumbotron.transparent-wrapper.info-styler h1 {
+  color: #db540f;
+}
+
+.jumbotron.transparent-wrapper.info-styler p {
+  margin: 15px;
+  padding: 0;
+  color: #c1c1c1;
+  font-size: 1.15rem;
+}
