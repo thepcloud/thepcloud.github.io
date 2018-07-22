@@ -27,30 +27,70 @@
 
 </head>
 
-<body class="noScroll">
-      <div class="container">
+  <body>
+         <div class="container-fluid menu-container">
         <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color:transparent;">
-            <div class="container"><a class="navbar-brand" href="/">perv</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container"><a class="navbar-brand" href="#home">perv</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link" href="/info" style="font-size:1rem;width:70px;margin:0 15px;">Info</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size:1rem;width:70px;margin:0 15px;">Blog</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="width:70px;">Contact</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#blog" style="font-size:1rem;width:70px;margin:0 15px;">Blog</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="/contact" style="width:70px;">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-  <div class="container">
-        <div class="jumbotron transparent-wrapper vertical-center"><img class="d-block" src="/assets/img/l300.png">
-  <h1 class="text-center">Private Party Rooms</h1>
-  <p class="text-center">Must be 18+ to participate</p>
-  <p class="text-center"><a class="btn btn-primary d-inline-block float-none" role="button" href="http://jitsi.perv.cloud">Click Here</a></p>
+
+    <div id="home">
+      <div class="container-fluid index-container">
+  <div class="jumbotron transparent-wrapper vertical-center"><img class="d-block" src="assets/img/l300.png">
+      <h1 class="text-center">Private Party Rooms</h1>
+      <p class="text-center">Must be 18+ to participate</p>
+      <p class="text-center"><a class="btn btn-primary d-inline-block float-none" role="button" href="http://jitsi.perv.cloud">Click Here</a></p>
+  </div>
+</div>
+    </div>
+    <div id="blog">
+      <div class="container-fluid blog-container">
+  
+    <div class="jumbotron">
+        <h1 class="post-title"><a href="/blog/sorry-we-had-to-take-a-nap">Sorry, We had to take a nap.</a></h1>
+        <p class="post-text">Last week Jitsi crashed because the <a href="http://github.com/jitsi/jitsi-videobridge">Videobridge</a> couldn’t keep up with the streaming from multiple rooms and multiple participants in addition to the other components required to run <a href="http://jitsi.org">Jitsi</a> suite.
+
+</p>
+        <p class="post-link">[<a href="/blog/sorry-we-had-to-take-a-nap">read more</a>]</p>
+    </div>
+   
+    <div class="jumbotron">
+        <h1 class="post-title"><a href="/jekyll/update/2018/07/18/welcome-to-jekyll.html">Welcome to Jekyll!</a></h1>
+        <p class="post-text">You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.
+
+</p>
+        <p class="post-link">[<a href="/jekyll/update/2018/07/18/welcome-to-jekyll.html">read more</a>]</p>
+    </div>
+   
 </div>
     </div>
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    _paq.push(['setTrackerUrl',  'https://api-48cf3cde3c8cd2c3b2e674b25cea7684.turbo.sandcats.io']);
+    _paq.push(['setSiteId', 2]);
+    _paq.push(['setApiToken', '0ap7juCXcspk2PoAywYaBhRYp68E_FjnFaqwTiVTxHq']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://dpvszxvqcquyezmy9rl9.turbo.sandcats.io/embed.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+    
 </body>
 
 </html>

@@ -14,15 +14,10 @@
 
 </head>
 
-  <body>
-     {% include navbar.html %}
+  <body style="background-color:#02182b;">
+     {% include navbar-page.html %}
 
-    <div id="home">
-      {% include index-container.html %}
-    </div>
-    <div id="blog">
-      {% include blog-container.html %}
-    </div>
+    {{content}} 
     {% include scripts.html %}
     
 </body>
